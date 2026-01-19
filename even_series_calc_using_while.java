@@ -14,7 +14,8 @@ public class even_series_calc_using_while
                 System.out.println("type ending value");
                 b=read.nextInt();
                 
-                    if (a<b)
+                    if (a!=b)
+                    {if (a<b)
                     {
                         System.out.println("Values are");
                         if (a%2!=0)
@@ -42,7 +43,7 @@ public class even_series_calc_using_while
                         System.out.println("thanks");
                         System.out.println("bye");
                         System.out.println(".");
-                    }
+                    }}
                     else if (a==b)
                     {
                         System.out.println("Starting and ending value cant be same");
@@ -53,3 +54,4 @@ public class even_series_calc_using_while
         }
     }
 }
+
