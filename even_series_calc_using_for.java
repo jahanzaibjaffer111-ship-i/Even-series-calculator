@@ -8,12 +8,14 @@ public class even_series_calc_using_for
             while(true)
             {
                 System.out.println("Hello");
-                System.out.println("Welcome to Even Series Calculator");
-                System.out.println("Type Starting Value");
+                System.out.println("welcome to even series calc");
+                System.out.println("type starting value");
                 a=read.nextInt();
-                System.out.println("Type Ending Value");
+                System.out.println("type ending value");
                 b=read.nextInt();
-                System.out.println("Values are");
+                
+                    if(a!=b){
+                        System.out.println("Values are");
                     if(a<b)
                     {
                         if (a%2!=0)
@@ -34,14 +36,18 @@ public class even_series_calc_using_for
                         for(int i=a; i>=b; i=i-2)
                         {
                             System.out.println(i);
-                        }
+                        }}
+                        System.out.println("thanks");
+                        System.out.println("bye");
+                        System.out.println(".");}
+                    else if (a==b)
+                    {
+                        System.out.println("Starting and ending value cant be same");
+                        System.out.println("Try again");
+                        System.out.println(".");
                     }
-                    System.out.println("Thank you");
-                    System.out.println("Bye");
-                    System.out.println(".");
+                    
                 }
         }
     }
-
 }
-
